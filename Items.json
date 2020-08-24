@@ -1,0 +1,50 @@
+[
+    {
+        "name": "Sofa",
+        "price": "15000",
+        "id": 1,
+        "source": "img/sofa.jpg"
+    },
+    {
+        "name": "Big Sofa",
+        "price": "15000",
+        "id": 1,
+        "source": "img/big sofa.jpg"
+    },
+    {
+        "name": "bed",
+        "price": "3500",
+        "id": 2,
+        "source": "img/bed.jpg"
+    },
+    {
+        "name": "kitchen set",
+        "price": "1588",
+        "id": 3,
+        "source": "img/kitchen set.jpg"
+    },
+    {
+        "name": "swing",
+        "price": "1534",
+        "id": 4,
+        "source": "img/swing.jpg"
+    },
+    {
+        "name": "table",
+        "price": "1500",
+        "id": 4,
+        "source": "img/table.jpg"
+    },
+    {
+        "name": "stool",
+        "price": "1200",
+        "id": 4,
+        "source": "img/stool.jpg"
+    },
+    {
+        "name": "study table",
+        "price": "1588",
+        "id": 4,
+        "source": "img/study table.jpg"
+    }
+]
