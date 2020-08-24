@@ -51,7 +51,7 @@ var products = [
         "price": "1200",
         "desc": "QUALITY - This is spaciously designed with larger depth to allow for broader seating and allowing complete relaxation until the thigh to provide with superb comfort with. The cushions you sit on are firm & Comfortable. This sofa is constructed featuring handpicked Premium fabric for a regal finish. Durable for long term use and held up by Strong legs that last a lifetime.",
         "id": 7,
-        "source": "img/stool.jpg",
+        "source": "img/big table.jpg",
 
     },
     {
