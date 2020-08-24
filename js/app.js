@@ -31,23 +31,23 @@ var products = [
 
     },
     {
-        "name": "swing",
+        "name": "dressing table",
         "price": "1534",
         "id": 5,
         "desc": "QUALITY - This is spaciously designed with larger depth to allow for broader seating and allowing complete relaxation until the thigh to provide with superb comfort with. The cushions you sit on are firm & Comfortable. This sofa is constructed featuring handpicked Premium fabric for a regal finish. Durable for long term use and held up by Strong legs that last a lifetime.",
-        "source": "img/swing.jpg",
+        "source": "img/dressing table.jpg",
 
     },
     {
-        "name": "table",
+        "name": "dining table",
         "price": "1500",
         "desc": "QUALITY - This is spaciously designed with larger depth to allow for broader seating and allowing complete relaxation until the thigh to provide with superb comfort with. The cushions you sit on are firm & Comfortable. This sofa is constructed featuring handpicked Premium fabric for a regal finish. Durable for long term use and held up by Strong legs that last a lifetime.",
         "id": 6,
-        "source": "img/table.jpg",
+        "source": "img/dining table.jpg",
 
     },
     {
-        "name": "stool",
+        "name": "big table",
         "price": "1200",
         "desc": "QUALITY - This is spaciously designed with larger depth to allow for broader seating and allowing complete relaxation until the thigh to provide with superb comfort with. The cushions you sit on are firm & Comfortable. This sofa is constructed featuring handpicked Premium fabric for a regal finish. Durable for long term use and held up by Strong legs that last a lifetime.",
         "id": 7,
@@ -63,11 +63,11 @@ var products = [
 
     },
     {
-        "name": "bed",
+        "name": "chair",
         "price": "3500",
         "desc": "QUALITY - This is spaciously designed with larger depth to allow for broader seating and allowing complete relaxation until the thigh to provide with superb comfort with. The cushions you sit on are firm & Comfortable. This sofa is constructed featuring handpicked Premium fabric for a regal finish. Durable for long term use and held up by Strong legs that last a lifetime.",
         "id": 3,
-        "source": "img/bed.jpg",
+        "source": "img/chair.jpg",
 
     }
 ];
