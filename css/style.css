@@ -1,0 +1,177 @@
+
+
+.nav-info-items{
+  display: flex!important;
+}
+
+body {
+  font-family: "Kaushan Script", cursive;
+}
+/* nav links */
+
+.nav-link {
+  color: cadetblue;
+  font-size: 20px;
+}
+.nav-link:hover {
+  color: black;
+}
+/* end of nav links */
+
+.cart-info {
+ 
+  padding: 10px;
+  cursor: pointer;
+}
+/* end of info icons */
+
+/* cart  */
+.cart {
+  top: 0;
+  background: rgba(255, 255, 255, 0.5);
+  width: 50%;
+  justify-content: space-around;
+  align-items: center!important;
+}
+
+.cart-total-container{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.container-fluid {
+  width: 50%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 50px;
+  background-color: azure;
+  border: 1px solid;
+}
+
+#cart-item-price {
+  font-size: 16px;
+}
+
+.navbar {
+  border-bottom: 2px solid;}
+
+
+/* store items */
+.store {
+  background-color: #c9e7ec;
+}
+.img-container {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+.store-item-icon {
+  float: right;
+  cursor: pointer;
+ 
+}
+
+a{
+  color: black;
+}
+
+.cart-buttons-container{
+  margin: 15px;
+}
+
+.card{
+  border: 1px solid gray;
+}
+
+.btn-block {
+  margin-top: 10px;
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: 100px auto;
+  background-color: #ddded7;
+}
+
+.navbar-nav {
+  margin-left: 10px;
+margin-right: auto;}
+
+.signin{
+  padding: 10px;
+  margin: 10px;
+}
+
+.search{
+  width: 200px;
+  margin: 10px;
+  cursor: pointer;
+
+}
+
+.home-container{
+  height: 400px;
+  width: 100%;
+  background-image: url('homeimg.png');
+}
+
+.home-page{
+  padding-left: 250px;
+  padding-top: 50px;
+}
+
+.home-header{
+  font-size: 50px;
+color: cadetblue;
+padding: 10px;
+text-decoration: underline;
+}
+
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 50%;
+}
+
+.magazine-container{
+  height: 500px;
+  width: 100%;
+  background-image: url('magazine.png');
+}
+.about{
+    font-size: 20px;
+    font-weight: bold;
+    background-color: lightgray;
+    width: 80%;
+    border-radius: 100px;
+    font-family: "Kaushan Script", cursive;
+}
+
+.signUp{
+  background-image: url('magazine.png');
+  background-repeat: no-repeat;
+}
