@@ -160,7 +160,7 @@ text-decoration: underline;
 .magazine-container{
   height: 500px;
   width: 100%;
-  background-image: url('magazine.png');
+  background-image: url('home.png');
 }
 .about{
     font-size: 20px;
@@ -172,6 +172,6 @@ text-decoration: underline;
 }
 
 .signUp{
-  background-image: url('magazine.png');
+  background-image: url('home.png');
   background-repeat: no-repeat;
 }
