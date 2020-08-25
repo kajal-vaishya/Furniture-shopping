@@ -74,12 +74,10 @@ var products = [
 
 // to load intial all shopping item
 function loadHtml(products) {
-    let prod;
     fetch('Items.json')
         .then(response => response.json())
         .then(data => {
-            prod = data;
-            console.log("inside loop" + prod)
+            products = data;
         });
 
     products.forEach(function (item) {
@@ -93,13 +91,13 @@ function loadHtml(products) {
               </div>
               <div class="card-body">
                 <div class="card-text d-flex justify-content-between text-capitalize">
-                  <h5 id="store-item-name">${item.name}</h5>
+                  <h5 id="store-item-name">${item.name}</h5>$
                   <h5 class="store-item-value"> <strong id="store-item-price" class="font-weight-bold">${item.price}</strong></h5>
   
                 </div>
                 <div class="store-item-icon">
-                 <span >☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
-                <ion-icon name="cart" size="large"></ion-icon>
+                <div class="row"><span><span >☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span> </span>
+                <ion-icon name="cart" size="large"></ion-icon></div>
                 </div>
               </div>
   
@@ -291,14 +289,18 @@ function closeModel() {
     modal.style.display = "none";
 }
 
-
-
-
-
-
-
-
-
-
-
+function showMenu(){
+    var menu=document.getElementById('menu');
+    var store=document.getElementById('store');
+    console.log(document.getElementsByClassName("show-menu"))
+    if(document.getElementsByClassName("show-menu").length != 0){
+        menu.classList.remove('show-menu');
+        store.classList.add('col-md-12');
+       
+    }else{
+        menu.classList.add('show-menu'); 
+        store.classList.remove('col-md-12');
+    }
+    
+}
 
