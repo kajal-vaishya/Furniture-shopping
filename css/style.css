@@ -34,6 +34,29 @@ body {
   align-items: center!important;
 }
 
+
+.font-weight-normal {
+  padding-left: 70px;
+  padding-top: 10px;
+}
+
+.row{
+  margin: 0;
+}
+
+.dropdown-toggle{
+  width: 150px;
+}
+.slider{
+  padding:10px 30px 10px 0;
+}
+.menu{
+  display: none;
+}
+.show-menu{
+  display: block !important;
+}
+
 .cart-total-container{
   display: flex;
   justify-content: space-between;
